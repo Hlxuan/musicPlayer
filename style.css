@@ -69,4 +69,8 @@ body {
   background-color: #fff;
   border: 0;
   color: #dfdbdf;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 20px;
 }
