@@ -45,3 +45,6 @@ function pauseSong() {
 
   audio.pause()
 }
+
+prevBtn.addEventListener("click", prevSong)
+nextBtn.addEventListener("click", nextSong)
