@@ -74,3 +74,7 @@ function nextSong() {
 }
 
 audio.addEventListener("timeupdate", updateProgress)
+
+function updateProgress(e) {
+  console.log(e.srcElement)
+}
