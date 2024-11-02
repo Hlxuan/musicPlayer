@@ -48,3 +48,15 @@ function pauseSong() {
 
 prevBtn.addEventListener("click", prevSong)
 nextBtn.addEventListener("click", nextSong)
+
+function prevSong() {
+  songIndex--
+
+  if (songIndex < 0) {
+    songIndex = songs.length - 1
+  }
+
+  loadSong(songs[songIndex])
+
+  playSong()
+}
