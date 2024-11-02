@@ -15,4 +15,6 @@ const songIndex = 0
 
 loadSong(songs[songIndex])
 
-function loadSong(song) {}
+function loadSong(song) {
+  title.innerText = song
+}
