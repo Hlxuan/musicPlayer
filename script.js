@@ -84,8 +84,9 @@ function updateProgress(e) {
 
 progressContainer.addEventListener("click", setProgress)
 
-function setProgress() {
+function setProgress(e) {
   const width = this.clientWidth
+  const clickX = e.offsetX
 
-  console.log(width)
+  console.log(clickX)
 }
