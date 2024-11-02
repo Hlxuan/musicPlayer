@@ -83,3 +83,5 @@ function updateProgress(e) {
 }
 
 progressContainer.addEventListener("click", setProgress)
+
+function setProgress() {}
