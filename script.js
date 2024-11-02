@@ -12,3 +12,7 @@ const cover = document.getElementById("cover")
 const songs = ["暮色回响", "嘉宾", "追光者"]
 
 const songIndex = 0
+
+loadSong(songs[songIndex])
+
+function loadSong(song) {}
