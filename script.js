@@ -8,3 +8,5 @@ const progress = document.getElementById("progress")
 const progressContainer = document.getElementById("progress-container")
 const title = document.getElementById("title")
 const cover = document.getElementById("cover")
+
+const songs = ["暮色回响", "嘉宾", "追光者"]
