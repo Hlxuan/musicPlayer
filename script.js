@@ -72,3 +72,5 @@ function nextSong() {
 
   playSong()
 }
+
+audio.addEventListener("timeupdate", updateProgress)
