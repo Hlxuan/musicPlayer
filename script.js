@@ -91,3 +91,5 @@ function setProgress(e) {
 
   audio.currentTime = (clickX / width) * duration
 }
+
+audio.addEventListener("ended", nextSong)
