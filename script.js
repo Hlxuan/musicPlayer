@@ -76,5 +76,6 @@ function nextSong() {
 audio.addEventListener("timeupdate", updateProgress)
 
 function updateProgress(e) {
-  console.log(e.srcElement)
+  const { duration, currentTime } = e.srcElement
+  console.log(duration, currentTime)
 }
