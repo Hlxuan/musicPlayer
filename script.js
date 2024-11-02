@@ -81,3 +81,5 @@ function updateProgress(e) {
 
   progress.style.width = `${progressPercent}%`
 }
+
+progressContainer.addEventListener("click", setProgress)
