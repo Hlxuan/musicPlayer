@@ -84,4 +84,8 @@ function updateProgress(e) {
 
 progressContainer.addEventListener("click", setProgress)
 
-function setProgress() {}
+function setProgress() {
+  const width = this.clientWidth
+
+  console.log(width)
+}
