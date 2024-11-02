@@ -20,3 +20,5 @@ function loadSong(song) {
   audio.src = `music/${song}.mp3`
   cover.src = `images/${song}.jpg`
 }
+
+playBtn.addEventListener("click", () => {})
