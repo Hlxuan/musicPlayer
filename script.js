@@ -21,4 +21,6 @@ function loadSong(song) {
   cover.src = `images/${song}.jpg`
 }
 
-playBtn.addEventListener("click", () => {})
+playBtn.addEventListener("click", () => {
+  const isPlaying = musicContainer.classList.contains("play")
+})
